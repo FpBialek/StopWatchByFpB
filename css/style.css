@@ -9,5 +9,53 @@ html {
 }
 
 body {
-  background-color: #333;
+  background-image: linear-gradient(to top, #000000 0%, #166D3B 100%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  color: #000000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.digit {
+  font-size: 160px;
+}
+
+.text {
+  font-size: 40px;
+}
+
+.buttons {
+  margin-top: 40px;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  margin: 50px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  color: white;
+}
+
+.start {
+  background-color: #19551c;
+}
+
+.stop {
+  background-color: #042046;
+}
+
+.reset {
+  background-color: #19551c;
 }/*# sourceMappingURL=style.css.map */
